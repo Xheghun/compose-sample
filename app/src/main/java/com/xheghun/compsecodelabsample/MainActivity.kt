@@ -60,7 +60,7 @@ fun Greetings(names: List<String> = List(1000) { "$it" }) {
     showBackground = true,
     widthDp = 320,
     uiMode = UI_MODE_NIGHT_YES,
-    name = "De"
+    name = "Default"
 )
 @Preview(showBackground = true, widthDp = 320)
 @Composable
